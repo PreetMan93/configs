@@ -22,6 +22,7 @@ set clipboard=unnamedplus
 
 set number
 
+highlight Visual cterm=reverse ctermbg=NONE
 
 set tabstop=2       " The width of a TAB is set to 2.
                     " Still it is a \t. It is just that
