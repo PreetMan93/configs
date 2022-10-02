@@ -10,14 +10,12 @@ call plug#begin()
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'joshdick/onedark.vim'
-Plug 'itchyny/lightline.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 syntax on
 colorscheme onedark
-let g:lightline = { 'colorscheme': 'onedark' }
 
 let mapleader = " "
 nnoremap <leader>pv :Vex<CR>
